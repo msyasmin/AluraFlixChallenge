@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: max-width;
+    padding: 20px;
+    border-top: 5px #2271D1 solid;
+    box-sizing: border-box;
+}

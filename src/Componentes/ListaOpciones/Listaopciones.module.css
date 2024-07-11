@@ -1,0 +1,21 @@
+.listaopciones label{
+    font-size: 18px;
+    font-weight: 200;
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.listaopciones select{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border-color: grey;
+    border-radius: 5px;
+    padding: 10px 10px;
+    outline-color: blue;
+    font-size: 18px;
+    box-sizing: border-box;
+    color: white;
+}

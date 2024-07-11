@@ -1,0 +1,88 @@
+.fondo{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-image: url("banner-home1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .9;
+    justify-content: space-around;
+}
+
+.fondo h1{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+    width: 286px;
+    border-radius: 10px;
+    color: white;
+    background-color: #5DADE2;
+    padding: 10px;
+    margin-left: 60px;
+    text-align: center;
+    filter: drop-shadow(rgb(197, 196, 196) 2px 2px 5px)
+}
+
+.fondo h2{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+.fondo p{
+    width: 400px;
+    display: flex;
+    color: white;
+    text-align: justify;
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+
+.imagen{
+    display: flex;
+    width: 400px;
+}
+
+.iframe{
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    margin-right: 100px;
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+@media (max-width: 832px){
+    .fondo{
+        display: flex;
+        flex-direction: column;
+    }
+    .fondo h1{
+        margin-top: 20px;
+    }
+
+    .fondo p{
+        margin-bottom: 20px;
+    }  
+
+    .iframe{
+        display: flex;
+        margin: 10px 60px;
+        width: 450px;
+        height: 300px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 1440px){
+    .fondo h1{
+        margin-top: 300px;
+    }
+
+    .fondo p{
+        margin-bottom: 200px;
+    }
+}
